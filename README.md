@@ -35,4 +35,11 @@
 ## Инструменты
 - **Сбор**: [скрипт массовой загрузки](https://drive.google.com/drive/folders/1bNj359SbAydGt9xLOkIP_OKcjd3H4e3q) для утилиты [`wpull`](https://wpull.readthedocs.io/en/master/)
 - **Обработка и анализ**: [`metawarc`](https://github.com/datacoon/metawarc); [`ArchiveReady`](https://archiveready.com/)
-- **Воспроизведение**: [`ReplayWeb.page`]((https://replayweb.page/)
+- **Воспроизведение**: [`ReplayWeb.page`](https://replayweb.page/)
+
+## Контакты
+София Федотова, НИУ ВШЭ, ФГН, ЦМГН 2 курс, 2024
+e-mail: soanfedotova@edu.hse.ru
+
+## Лицензия
+[Перейти](https://github.com/sofiiafedotova/gusli-arch/tree/main?tab=CC0-1.0-1-ov-file)
