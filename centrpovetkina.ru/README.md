@@ -16,4 +16,38 @@
 - замедленный отклик сети (10850 ms),
 - отсутствие карты сайта (sitemap.xml) и др.
 
-## 2. 
+## 2. Анализ: metawarc
+1) `metawarc analyze centrpovetkina.ru.warc.gz`
+```{
+mimes              files       size          share
+---------------  -------  ---------  -------------
+image/jpeg           536  147211484   95.7105
+text/html            513    3952374    2.56966
+image/png             30    2243642    1.45872
+text/javascript       14     319632    0.207811
+image/gif             18      41456    0.0269529
+text/css              10      40204    0.0261389
+text/plain             1        331    0.000215202
+#total              1122  153809123  100
+```
+97% данных в архиве занимают изображения в формате jpeg и png, доля в 2.5% приходится на html-текст.
+
+2) `metawarc index centrpovetkina.ru.warc.gz` -> создается БД (`centrpovetkina_meta.db`)
+
+3) `metawarc stats -m mimes`
+
+| mime                        | size      | count |
+|-----------------------------|-----------|-------|
+| image/gif                   | 82912     | 36    |
+| image/jpeg                  | 294422968 | 1072  |
+| image/png                   | 4487284   | 60    |
+| text/css                    | 80408     | 20    |
+| text/html; charset=UTF-8    | 3163028   | 538   |
+| text/html; charset=utf-8    | 4741720   | 488   |
+| text/javascript             | 639264    | 28    |
+| text/plain; charset=utf-8   | 662       | 2     |
+
+3) ` metawarc export -t headers -o headers.jsonl centrpovetkina.ru.warc.gz`
+Извлекаем заголовки http, чтобы проверить, действительно ли на сайте отсутствуют заголовки кэширования. Результат сохраняем в файле `centrpovetkina_headers.jsonl`
+Действительно, везде, где встречаются характерные заголовки `Cache-control` директивы ответа кэша выставлены на `no-store, no-cache`: явно указывает на то, что сервер запрещает кэширование содержимого.
+
