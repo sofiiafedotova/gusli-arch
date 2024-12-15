@@ -14,7 +14,8 @@
 - встроенный в html javascript (динамический контент),
 - отсутствие заголовков кэширования http,
 - замедленный отклик сети (10850 ms),
-- отсутствие карты сайта (sitemap.xml) и др.
+- отсутствие карты сайта (sitemap.xml)
+и др.
 
 ## 2. Анализ: metawarc
 1) `metawarc analyze centrpovetkina.ru.warc.gz`
@@ -48,6 +49,17 @@ text/plain             1        331    0.000215202
 | text/plain; charset=utf-8   | 662       | 2     |
 
 3) ` metawarc export -t headers -o headers.jsonl centrpovetkina.ru.warc.gz`
+
 Извлекаем заголовки http, чтобы проверить, действительно ли на сайте отсутствуют заголовки кэширования. Результат сохраняем в файле `centrpovetkina_headers.jsonl`
+
 Действительно, везде, где встречаются характерные заголовки `Cache-control` директивы ответа кэша выставлены на `no-store, no-cache`: явно указывает на то, что сервер запрещает кэширование содержимого.
 
+4) `metawarc metadata --output centrpovetkina_meta.jsonl centrpovetkina.ru.warc.gz`
+
+Результаты: файл `centrpovetkina_meta.jsonl` и файл `centrpovetkina_errors.txt`. Метаданные для изображений сохранились, но не всегда успешно.
+
+## 3. Воспроизведение: ReplayWeb.page
+
+<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/centrpovetkina.ru/centrpovetkina_replay.png" width=80%>
+
+Сайт архивировался удачно. Для примера: главная страница. Мы видим, что потеряно одно изображение (оно указано как картинка с внешнего ресурса среди проблем на ArchiveReady) -- но это логотип TripAdvisor, которым не жалко пожертвовать.
