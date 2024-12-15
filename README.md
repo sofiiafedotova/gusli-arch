@@ -7,7 +7,7 @@
 ## Список сайтов
 
 1) Сайт [Центра музыкальных древностей В.И. Поветкина](http://centrpovetkina.ru/) (centrpovetkina.ru)
-2) Обучающий сайт музыканта и педагога Натальи Федоровой (Санкт-Петербург) ["Гусли звончатые от А до Я"](https://guslirus.ru/) (guslirus.ru)
+2) Обучающий сайт музыканта и педагога Натальи Федоровой (СПб) ["Гусли звончатые от А до Я"](https://guslirus.ru/) (guslirus.ru)
 3) Сайт московской мастерской по изготовлению гуслей [Psaltery](http://psaltery.ru/) (psaltery.ru)
 4) Сайт беларуской мастерской по изготовлению гуслей ["Гусли. Традиции, современность"](https://gusli.by/) (gusli.by)
 
@@ -31,3 +31,8 @@
   * `gusli.by.warc.gz`: *архив*
     
   ----//----
+
+## Инструменты
+- **Сбор**: [скрипт массовой загрузки](https://drive.google.com/drive/folders/1bNj359SbAydGt9xLOkIP_OKcjd3H4e3q) для утилиты [`wpull`](https://wpull.readthedocs.io/en/master/)
+- **Обработка и анализ**: [`metawarc`](https://github.com/datacoon/metawarc); [`ArchiveReady`](https://archiveready.com/)
+- **Воспроизведение**: [`ReplayWeb.page`]((https://replayweb.page/)
