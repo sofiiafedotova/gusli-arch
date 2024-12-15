@@ -15,20 +15,19 @@
 
 ### gusli/
 - centrpovetkina.ru/
-  * `centrpovetkina.ru.warc.gz`: *архив*
-  * `README.md`: *описание сайта и его особенностей, сводки анализа метаданных и т.д.*
-  * файлы `cdx`, `db`, файл с `логами`
-  * файлы-результаты анализа `metawarc` *(errors.txt, файлы с расширением .jsonl, metawarc.db)*
+  * `centrpovetkina_meta.jsonl` (+ `errors.txt`) и `centrpovetkina_meta_db.db`: файлы от анализа `metawarc` (Файл с подсчетом метаданных; БД SQLite, содержащая HTTP-метаданные) 
+  * `README.md`: *ссылка на архив, описание сайта и его особенностей, сводки анализа метаданных и т.д.*
+  * скриншоты с сайтов `ReplayWeb.page` и `ArchiveReady`
 - guslirus.ru/
-  * `guslirus.ru.warc.gz`: *архив*
+  * `guslirus_meta.jsonl` и `guslirus_meta_db.db`
     
   ----//----
 - psaltery.ru/
-  * `psaltery.ru.warc.gz`: *архив*
+  * `psaltery_meta.jsonl` и `psaltery_meta_db.db`
     
   ----//----
 - gusli.by/
-  * `gusli.by.warc.gz`: *архив*
+  * `gusli_meta.jsonl` и `gusli_meta_db.db`
     
   ----//----
 
