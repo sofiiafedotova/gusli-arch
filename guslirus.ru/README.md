@@ -5,7 +5,7 @@
 [Перейти](https://drive.google.com/drive/folders/1RbxKzEfS9QS1QK8z8a8iejnUgOsdPVLy?usp=drive_link)
 ## 1. Анализ: Archive Ready
 
-<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/centrpovetkina_archready.png" width=40%>
+<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/guslirus_archready.png" width=40%>
 
 В соответствии с метриками [CLEAR](https://purl.pt/24107/1/iPres2013_PDF/CLEAR%20a%20credible%20method%20to%20evaluate%20website%20archivability.pdf) результат анализа заглавной страницы сайта “Гусли звончатые от А до Я” - самый высокий среди выбранных мною сайтов. 
 Среди проблем: 
