@@ -48,7 +48,7 @@ text/plain             1        331    0.000215202
 | text/javascript             | 639264    | 28    |
 | text/plain; charset=utf-8   | 662       | 2     |
 
-3) ` metawarc export -t headers -o headers.jsonl centrpovetkina.ru.warc.gz`
+3) ` metawarc export -t headers -o centrpovetkina_headers.jsonl centrpovetkina.ru.warc.gz`
 
 Извлекаем заголовки http, чтобы проверить, действительно ли на сайте отсутствуют заголовки кэширования. Результат сохраняем в файле `centrpovetkina_headers.jsonl`
 
