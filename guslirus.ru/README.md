@@ -8,13 +8,14 @@
 <img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/guslirus_archready.png" width=40%>
 
 В соответствии с метриками [CLEAR](https://purl.pt/24107/1/iPres2013_PDF/CLEAR%20a%20credible%20method%20to%20evaluate%20website%20archivability.pdf) результат анализа заглавной страницы сайта “Гусли звончатые от А до Я” - самый высокий среди выбранных мною сайтов. 
+
 Среди проблем: 
 - несоответствие стандартам оформления html и css
 - неработающие ссылки,
 - встроенный в html javascript,
 - отсутствие заголовков кэширования http,
 - замедленный отклик сети (1170 ms)
-- и др.
+и др.
 
 ## 2. Анализ: metawarc
 1) `metawarc analyze centrpovetkina.ru.warc.gz`
@@ -66,6 +67,6 @@ text/plain             1       1060    0.000349014
 
 ## 3. Воспроизведение: ReplayWeb.page
 
-<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/centrpovetkina.ru/guslirus_replay.png" width=80%>
+<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/guslirus_replay.png" width=80%>
 
 Просмотр warc-файла через ReplayWebpage показал, что сайт скачался целиком, в т.ч. успешно загрузились те ссылки, которые ArchiveToday обозначил как "неработающие".
