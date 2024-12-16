@@ -2,7 +2,14 @@
 
 
 ## Ссылка на архив
-[Перейти](https://drive.google.com/drive/folders/1RbxKzEfS9QS1QK8z8a8iejnUgOsdPVLy?usp=drive_link)
+**Ссылка**: [Перейти](https://drive.google.com/drive/folders/1RbxKzEfS9QS1QK8z8a8iejnUgOsdPVLy?usp=drive_link)
+
+**Состав**: 
+- файл cdx (99 кб)
+- файл с логами (1.2 мб)
+- файл warc (280.7 мб)
+- файл .db (148 кб)
+- 
 ## 1. Анализ: Archive Ready
 
 <img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/guslirus_archready.png" width=40%>
