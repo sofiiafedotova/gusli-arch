@@ -1,7 +1,15 @@
 # Сайт Центра музыкальных древностей В.И. Поветкина (centrpovetkina.ru)
 
-## Ссылка на архив
-[Перейти](https://drive.google.com/drive/folders/114blDcTalaqMrqOGl_gRItc-gCHSzAlR?usp=drive_link)
+## Архив
+**Ссылка**: [Перейти](https://drive.google.com/drive/folders/114blDcTalaqMrqOGl_gRItc-gCHSzAlR?usp=drive_link)
+**Состав**: 
+- файл cdx (239 кб)
+- файл с логами (2.8 мб)
+- файл warc (142,5 мб)
+- файл .db (408 кб)
+
+
+
 
 ## 1. Анализ: Archive Ready
 
