@@ -68,9 +68,9 @@ text/plain             1       1060    0.000349014
 
 Под характерными заголовками `Cache-control` директивы ответа кэша выставлены на `max-age=604800` (означает, что ресурс можно кэшировать в течение 604800 секунд, т.е. 7 дней). Мы выяснили, что ArchiveReady слишком сурово отнесся к этому пункту и даже занизил оценку архивируемости сайта. 
 
-4) `metawarc metadata --output guslirus_meta.jsonl guslirus.ru.warc.gz`
+4) `metawarc metadata --filetypes gif,jpeg,png --output guslirus_meta.jsonl guslirus.ru.warc.gz`
 
-Результаты: файл `guslirus_meta.jsonl` и файл `guslirus_errors.txt`. Метаданные для изображений сохранились, но не всегда успешно.
+Результаты: файл `guslirus_meta.jsonl`. Сохранились метаданные всего для 46 изображений (чуть меньше половины).
 
 ## 3. Воспроизведение: ReplayWeb.page
 
