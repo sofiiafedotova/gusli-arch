@@ -1,7 +1,7 @@
 C:\Users\Sofiia\Documents\arch\psaltery.ru>metawarc metadata --output psaltery_meta.jsonl psaltery.ru.warc.gz
 2024-12-17 19:17:25,893 - root - DEBUG - Preparing psaltery.ru.warc.gz
 [warn] Skip parser 'FAT12': Invalid FAT12 signature
-[warn] Skip parser 'FAT16': Invalid FAT16 signature
+[warn] Skip parser 'FAT16': Invalid FAT16 signature 
 [warn] Skip parser 'FAT32': Invalid FAT32 signature
 [warn] Skip parser 'LinuxSwapFile': Unknown magic string
 [warn] Skip parser 'MSDos_HardDrive': Invalid signature
