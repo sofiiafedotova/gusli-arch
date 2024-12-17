@@ -48,14 +48,15 @@ text/plain             1        331    0.000215202
 
 | mime                        | size      | count |
 |-----------------------------|-----------|-------|
-| image/gif                   | 82912     | 36    |
-| image/jpeg                  | 294422968 | 1072  |
-| image/png                   | 4487284   | 60    |
-| text/css                    | 80408     | 20    |
-| text/html; charset=UTF-8    | 3163028   | 538   |
-| text/html; charset=utf-8    | 4741720   | 488   |
-| text/javascript             | 639264    | 28    |
-| text/plain; charset=utf-8   | 662       | 2     |
+| image/gif                   | 41456     | 18    |
+| image/jpeg                  | 147211484 | 536   |
+| image/png                   | 2243642   | 30    |
+| text/css                    | 40204     | 10    |
+| text/html; charset=UTF-8    | 1581514   | 269   |
+| text/html; charset=utf-8    | 2370860   | 244   |
+| text/javascript             | 319632    | 14    |
+| text/plain; charset=utf-8   | 331       | 1     |
+
 
 3) ` metawarc export -t headers -o centrpovetkina_headers.jsonl centrpovetkina.ru.warc.gz`
 
@@ -63,9 +64,9 @@ text/plain             1        331    0.000215202
 
 Действительно, везде, где встречаются характерные заголовки `Cache-control` директивы ответа кэша выставлены на `no-store, no-cache`: явно указывает на то, что сервер запрещает кэширование содержимого.
 
-4) `metawarc metadata --output centrpovetkina_meta.jsonl centrpovetkina.ru.warc.gz`
+4) `metawarc metadata --filetypes jpeg,gif,png --output centrpovetkina_meta.jsonl centrpovetkina.ru.warc.gz`
 
-Результаты: файл `centrpovetkina_meta.jsonl` и файл `centrpovetkina_errors.txt`. Метаданные для изображений сохранились, но не всегда успешно.
+Результаты: файл `centrpovetkina_meta.jsonl`. Сохранились метаданные всего для 50 изображений из 1000+.
 
 ## 3. Воспроизведение: ReplayWeb.page
 
