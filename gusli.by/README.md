@@ -44,7 +44,7 @@
 
 
 ## 2. Анализ: metawarc
-1) `metawarc analyze centrpovetkina.ru.warc.gz`
+1) `metawarc analyze gusli.by.warc.gz`
 ```{
 mimes         files      size        share
 ----------  -------  --------  -----------
@@ -87,4 +87,4 @@ image/png         1      1725    0.0130023
 Главная страница архивировалась полностью.
 
 <img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/gusli.by/gusli_replay(2).png" width=80%>
-И сайт целиком тоже архивировался удачно.
+И сайт в целом тоже архивировался удачно.
