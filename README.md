@@ -15,20 +15,19 @@
 
 ### gusli/
 - centrpovetkina.ru/
-  * `centrpovetkina_meta.jsonl` и `centrpovetkina_meta.db`: *Файл с подсчетом метаданных и БД SQLite, содержащая HTTP-метаданные* 
+  * `centrpovetkina_meta.jsonl`, `centrpovetkina_headers.jsonl`, `centrpovetkina_meta.db`: *Файл с подсчетом метаданных и БД SQLite, содержащая HTTP-метаданные* 
   * `README.md`: *ссылка на архив, описание сайта и его особенностей, сводки анализа метаданных и т.д.*
-  * `centrpovetkina_errors.txt`, `centrpovetkina_headers.jsonl` *и др. файлы от `metawarc`*
   * скриншоты с сайтов `ReplayWeb.page` и `ArchiveReady`
 - guslirus.ru/
-  * `guslirus_meta.jsonl` и `guslirus_meta_db.db`
+  * `guslirus_meta.jsonl`, `guslirus_headers.jsonl`, `guslirus_meta.db`
     
   ----//----
 - psaltery.ru/
-  * `psaltery_meta.jsonl` и `psaltery_meta_db.db`
+  * `psaltery_meta.jsonl`, `psaltery_headers.jsonl`, `psaltery_meta.db`
     
   ----//----
 - gusli.by/
-  * `gusli_meta.jsonl` и `gusli_meta_db.db`
+  * `gusli_meta.jsonl`, `gusli_headers.jsonl`, `gusli_meta.db`
     
   ----//----
 
