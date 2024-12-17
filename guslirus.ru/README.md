@@ -1,7 +1,7 @@
 # Обучающий сайт музыканта и педагога Натальи Федоровой (СПб) "Гусли звончатые от А до Я" (guslirus.ru)
 
 
-## Ссылка на архив
+## Архив
 **Ссылка**: [Перейти](https://drive.google.com/drive/folders/1RbxKzEfS9QS1QK8z8a8iejnUgOsdPVLy?usp=drive_link)
 
 **Состав**: 
