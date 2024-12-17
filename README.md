@@ -15,7 +15,7 @@
 
 ### gusli/
 - centrpovetkina.ru/
-  * `centrpovetkina_meta.jsonl`, `centrpovetkina_headers.jsonl`, `centrpovetkina_meta.db`: *Файл с подсчетом метаданных и БД SQLite, содержащая HTTP-метаданные* 
+  * `centrpovetkina_meta.jsonl`, `centrpovetkina_headers.jsonl`, `centrpovetkina_meta.db`: *Собранные `metawarc` файлы с подсчетом метаданных и БД SQLite, содержащая HTTP-метаданные* 
   * `README.md`: *ссылка на архив, описание сайта и его особенностей, сводки анализа метаданных и т.д.*
   * скриншоты с сайтов `ReplayWeb.page` и `ArchiveReady`
 - guslirus.ru/
