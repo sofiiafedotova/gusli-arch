@@ -1,7 +1,7 @@
 # Сайт московской мастерской по изготовлению гуслей Psaltery (psaltery.ru)
 
 
-## Ссылка на архив
+## Архив
 **Ссылка**: [Перейти](https://drive.google.com/drive/folders/1ulDnVM0xy4LrfsDD24jOu8Vo58us4y3o?hl=ru)
 
 **Состав**: 
