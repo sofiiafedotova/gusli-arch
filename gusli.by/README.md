@@ -12,7 +12,7 @@
 
 ## 1. Анализ: Archive Ready
 
-<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/gusli.by/gusli_archready(1).png" width=40%>
+<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/gusli.by/gusli_archready(2).png" width=40%>
 
 В соответствии с метриками [CLEAR](https://purl.pt/24107/1/iPres2013_PDF/CLEAR%20a%20credible%20method%20to%20evaluate%20website%20archivability.pdf) оценка архивируемости главной страницы сайта gusli.by довольно высокая.
 
@@ -24,7 +24,8 @@
 и др.
 
 Однако поступим *честно* и передадим сервису не главную страницу, а (допустим) беларускую версию сайта. *"Честность"* заключается в том, что ArchiveReady по умолчанию считает, что весь сайт в соответствии с главной страницей имеет ту же структуру, но в данном случае главная страница разительно отличается от остального сайта, ибо, по сути, представляет собой навигацию по трехъязычным версиям контента (см. п.3)
-<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/gusli.by/gusli_archready(2).png" width=40%>
+<img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/gusli.by/gusli_archready(1).png" width=40%>
+
 Оценка заметно падает.
 
 Среди проблем: 
