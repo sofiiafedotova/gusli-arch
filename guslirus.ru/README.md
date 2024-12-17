@@ -9,7 +9,7 @@
 - файл с логами (1.2 мб)
 - файл warc (280.7 мб)
 - файл .db (148 кб) 
-- 
+
 ## 1. Анализ: Archive Ready
 
 <img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/guslirus.ru/guslirus_archready.png" width=40%>
@@ -25,7 +25,7 @@
 и др.
 
 ## 2. Анализ: metawarc
-1) `metawarc analyze centrpovetkina.ru.warc.gz`
+1) `metawarc analyze guslirus.ru.warc.gz`
 ```{
 mimes              files       size          share
 ---------------  -------  ---------  -------------
