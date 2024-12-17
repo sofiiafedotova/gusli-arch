@@ -17,7 +17,7 @@
 - centrpovetkina.ru/
   * `centrpovetkina_meta.jsonl` и `centrpovetkina_meta.db`: *Файл с подсчетом метаданных и БД SQLite, содержащая HTTP-метаданные* 
   * `README.md`: *ссылка на архив, описание сайта и его особенностей, сводки анализа метаданных и т.д.*
-  * `errors.txt`, `centrpovetkina_headers.jsonl` *и др. файлы от `metawarc`*
+  * `centrpovetkina_errors.txt`, `centrpovetkina_headers.jsonl` *и др. файлы от `metawarc`*
   * скриншоты с сайтов `ReplayWeb.page` и `ArchiveReady`
 - guslirus.ru/
   * `guslirus_meta.jsonl` и `guslirus_meta_db.db`
