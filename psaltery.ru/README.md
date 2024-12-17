@@ -9,7 +9,7 @@
 - файл с логами (2.5 мб)
 - файл warc (520.6 мб)
 - файл .db (416 кб)
-- 
+
 ## 1. Анализ: Archive Ready
 
 <img src="https://github.com/sofiiafedotova/gusli-arch/blob/main/psaltery.ru/psaltery_archready.png" width=40%>
