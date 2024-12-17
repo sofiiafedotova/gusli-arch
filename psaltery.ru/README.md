@@ -86,9 +86,9 @@ application/xml                      1       1318    0.00023728
 
 У статического сайта характерных заголовков `Cache-control` нет вовсе, что подтверждает анализ ArchiveReady. У динамического (gusli.psaltery.ru) директивы ответа кэша выставлены на `no-cache`, т.е. на запрет кэширования содержимого.
 
-4) `metawarc metadata --output psaltery_meta.jsonl psaltery.ru.warc.gz`
+4) `metawarc metadata --filetypes gif,jpeg,png,svg+xml --output psaltery_meta.jsonl psaltery.ru.warc.gz`
 
-Результаты: файл `psaltery_meta.jsonl` и файл `psaltery_errors.txt`. Метаданные для изображений сохранились, но не всегда успешно.
+Результаты: файл `psaltery_meta.jsonl`. Сохранились метаданные всего для 101 изображения.
 
 ## 3. Воспроизведение: ReplayWeb.page
 
