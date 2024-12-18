@@ -57,6 +57,7 @@ text/plain             1        331    0.000215202
 | text/javascript             | 319632    | 14    |
 | text/plain; charset=utf-8   | 331       | 1     |
 
+Результаты идентичны, лишь только подробнее указаны характеристики html-текста.
 
 3) ` metawarc export -t headers -o centrpovetkina_headers.jsonl centrpovetkina.ru.warc.gz`
 
